@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --moa-red: #E31837;
+  --moa-gold: #C9A84C;
+  --moa-dark: #0a0a0a;
+  --moa-dark2: #111111;
+}
+
+html { scroll-behavior: smooth; }
+body { background: var(--moa-dark); color: white; 
+       font-family: 'Inter', sans-serif; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
